@@ -1,0 +1,26 @@
+:root {
+  --bg: #bce0fd;
+  --bgSoft: #003366ad;
+  --bgYellow: #ffcc00;
+  --bgGreen: #00cc66;
+  --bgWhite: #ffffffad;
+  --text: white;
+  --textSoft: #bce0fd;
+  --textBlack: #000;
+  --textDblue: #003366ad;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}

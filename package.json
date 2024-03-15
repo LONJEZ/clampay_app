@@ -1,5 +1,5 @@
 {
-  "name": "nextadmingithubstarter",
+  "name": "clampay-frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,9 +10,12 @@
   },
   "dependencies": {
     "@next/eslint-plugin-next": "14.0.1",
-    "next": "14.0.1",
+    "@reduxjs/toolkit": "^2.2.1",
+    "next": "^14.1.3",
     "react": "18",
-    "react-dom": "18"
+    "react-dom": "18",
+    "react-icons": "^4.11.0",
+    "recharts": "^2.12.2"
   },
   "devDependencies": {
     "eslint": "8",
